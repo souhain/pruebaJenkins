@@ -11,7 +11,7 @@ class CalculadoraTest {
 	public void testsuma() {
 		
 	int	resultado = Calculadora.suma(5,6); 
-	int esperado = 11;
+	int esperado = 10;
 	
 	assertEquals(esperado, resultado);
 	}
