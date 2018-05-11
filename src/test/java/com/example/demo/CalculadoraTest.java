@@ -9,8 +9,8 @@ public class CalculadoraTest {
 	@Test
 	public void testsuma() {
 		
-	int	resultado = Calculadora.suma(5,6); 
-	int esperado = 10;
+	int	resultado = Calculadora.suma(6,6); 
+	int esperado = 12;
 	
 	assertEquals(esperado, resultado);
 	}
